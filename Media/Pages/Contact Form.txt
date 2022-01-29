@@ -1,0 +1,6 @@
+<div class="part1">
+<div class="left-part">[text* your-name placeholder "Your Name*"]</div>
+<div class="right-part">[email* your-email placeholder "Your Email*"]</div>
+</div>
+[textarea* your-message placeholder "Question*"]
+[submit "Send A Message"]

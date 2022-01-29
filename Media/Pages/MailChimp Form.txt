@@ -1,0 +1,9 @@
+<p>
+	<label>
+		<input type="email" name="EMAIL" placeholder="Enter Your E-mail" required />
+</label>
+</p>
+
+<p>
+	<input type="submit" value="Get Started" />
+</p>

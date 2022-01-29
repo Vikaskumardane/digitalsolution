@@ -1,0 +1,40 @@
+selector .aux-bullet {
+    border-radius: 0;
+    width: 21px;
+    height: 4px;
+    
+}
+selector .aux-bullet:before {
+    background: rgba(8,20,32,0.15);
+    border: none;
+}
+selector .aux-bullet:after {
+    background: var( --e-global-color-secondary );
+}
+selector .aux-mc-controls{
+    margin-top: 100px
+}
+selector .entry-main{
+    width:76%;
+    padding: 6% 3% 3% 8%;
+    border-radius: 20px;
+    background-color: #ffffff;
+       position: absolute;
+    left: 12%;
+    bottom: -58px;
+    transition: all 300ms ease-out;
+}
+selector .master-carousel{
+    overflow: visible;
+}
+
+selector .aux-mc-item:hover .aux-media-image {
+    box-shadow: -15px 30px 40px #111F3D33;
+    transition: all 300ms ease-out;
+}
+
+
+@media only screen and (max-width: 500px){
+selector .entry-tax {
+    font-size: 12px;
+}}
